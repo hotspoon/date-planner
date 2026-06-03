@@ -28,7 +28,9 @@ export function ScheduleScreen({
           <input
             type="date"
             value={date}
-            onChange={(event) => onDateChange(event.target.value)}
+            onChange={(event) =>
+              onDateChange((event.currentTarget as HTMLInputElement).value)
+            }
           />
         </label>
 
@@ -36,7 +38,9 @@ export function ScheduleScreen({
           <span>What Time? 😚</span>
           <select
             value={time}
-            onChange={(event) => onTimeChange(event.target.value)}
+            onChange={(event) =>
+              onTimeChange((event.currentTarget as HTMLSelectElement).value)
+            }
           >
             <option value="">Select a time...</option>
             {timeOptions.map((option) => (

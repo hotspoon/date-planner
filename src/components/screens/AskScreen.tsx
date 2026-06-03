@@ -1,8 +1,8 @@
-import type { RefObject } from 'react'
+import type { RefObject } from 'preact'
 import type { Position } from '../../types/datePlanner'
 
 type AskScreenProps = {
-  noButtonRef: RefObject<HTMLButtonElement | null>
+  noButtonRef: RefObject<HTMLButtonElement>
   noPosition: Position | null
   onAccept: () => void
 }

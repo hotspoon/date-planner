@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'preact/hooks'
 import type { Position } from '../types/datePlanner'
 
 export function useRunawayButton(isActive: boolean) {

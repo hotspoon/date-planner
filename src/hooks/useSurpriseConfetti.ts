@@ -1,5 +1,5 @@
 import confetti from 'canvas-confetti'
-import { useEffect } from 'react'
+import { useEffect } from 'preact/hooks'
 
 const confettiColors = ['#ec4a84', '#ffd166', '#7bdff2', '#b8f2c4', '#c77dff']
 

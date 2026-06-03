@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState } from 'preact/hooks'
 import './App.css'
 import { DecorativeDots } from './components/DecorativeDots'
 import { Progress } from './components/Progress'
